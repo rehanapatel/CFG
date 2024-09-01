@@ -8,7 +8,7 @@ Yes my love for coffee is in fact essential and useful information about me.
 
 ## The Purpose of This Repository and README File
 
-In this repository I hope to carry out multiple CFG Degree Assignments including Assignment 1! This *README* is for **Assignment 1** and will contain a comprehensive tutorial on the following git commands/practises (in no particular order):
+In this repository I hope to carry out multiple CFG Degree Assignments including Assignment 1! This *README* is for **Assignment 1** and will contain a comprehensive tutorial on the following git commands/practices (in no particular order):
 
 - git status
 - git add
