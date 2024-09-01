@@ -39,10 +39,12 @@ But the fun doesn't stop there...
 ## Other Files
 There are two files we will consider, the first is:
 > .gitignore
+
 The primary purpose is to tell Git which files or directories it should ignore and not track. It can prevent clutter, exclude sensitive information, allow for temporary files, and even let everyone ignore the same files if they have the same .gitignore!
 
 The second file we will consider is:
 > requirements.txt
+
 It allows users to install the necessary packages/dependencies that your code uses to run. Here is where we make it clear what packages our projects rely on and what tools/libraries are neccessary. When people clone you repo, they can set up their environment by running:
 ```
 pip install -r requirements.txt
@@ -52,7 +54,9 @@ pip install -r requirements.txt
 
 ## Formatting Your READMEs
 You have a multitude of formatting options. Here are some demonstrations:
+
 A Code Block
+
 ```
 git status
 git checkout -b Demo
@@ -60,12 +64,15 @@ git switch main
 
 ```
 Things in Bold and Italic
+
 *** THIS IS INTENSE ***
 
 You Can Strikethrough
-~~ Oops a mistake ~~
+
+~~Oops a mistake~~
 
 You Can Have Subscript and Superscript
+
 <sub> teeny tiny </sub>
 <sup> teeny tiny </sup>
 
