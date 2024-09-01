@@ -27,3 +27,6 @@ In this repository are the example files I've used for the tutorial and a folder
 ## How to Use Git Add & Git Commit
 ![Git Add & Commit Demo](images/gitAddCommit.jpg)
 
+## How to Use Git Branch: Creating Branches and Adding Files to Them
+![Git Branch Demo](images/gitBranch.jpg)
+
