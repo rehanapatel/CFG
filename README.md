@@ -65,7 +65,7 @@ git switch main
 ```
 Things in Bold and Italic
 
-*** THIS IS INTENSE ***
+***THIS IS INTENSE***
 
 You Can Strikethrough
 
