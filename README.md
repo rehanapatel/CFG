@@ -20,7 +20,7 @@ In this repository I hope to carry out multiple CFG Degree Assignments including
 - merges
 - useful files
 
-In this repository are the example files I've used for the tutorial and a folder of images that you'll seecrop up in the *README* :). This tutorial assumes you've already created a remote repository and linked itto a local repository on your local machine (laptop, PC). Happy Coding!  
+In this repository are the example files I've used for the tutorial and a folder of images that you'll see crop up in the *README* :). This tutorial assumes you've already created a remote repository and linked itto a local repository on your local machine (laptop, PC). Happy Coding!  
 
 ## How to Use Git Status
 ![Git Status Tutorial](images/gitStatus.jpg)
