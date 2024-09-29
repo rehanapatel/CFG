@@ -161,9 +161,9 @@ FROM Students s
 WHERE s.IsActive = False AND s.EndOfUniEnrollment > current_date(); -- in-built function
 -- This query identifies the incorrect record planted earlier!
 -- Let's change that incorrect record now
- UPDATE Students
- SET Students.IsActive = TRUE
- WHERE Students.StudentName = 'Bruce Wayne';
+UPDATE Students
+SET Students.IsActive = TRUE
+WHERE Students.StudentName = 'Bruce Wayne';
  
  -- Are there any students not registered in the Enrollments table?
 SELECT s.StudentID, s.StudentName
@@ -171,14 +171,14 @@ FROM Students s
 LEFT JOIN Enrollments e ON s.StudentID = e.StudentID -- Joins the tables Students & Enrollments
 WHERE e.studentID IS NULL;
  -- This query identifies the outlier record, let's go ahead and delete it.
- DELETE FROM Students
- WHERE StudentID = 015; -- You can also delete using his StudentName but given the purpose of a StudentID is that it is unique, it's better this way so as not delete all John Smiths! 
+DELETE FROM Students
+WHERE StudentID = 015; -- You can also delete using his StudentName but given the purpose of a StudentID is that it is unique, it's better this way so as not delete all John Smiths! 
  
  -- We need a list of the 2025 graduation cohort with their names capitalised to pass on to the leaver's comittee who are organising leavers hoodies
- SELECT UPPER(s.StudentName) -- built-in function
- FROM Students s
- WHERE EndOfUniEnrollment > current_date()
- ORDER BY s.StudentName ASC;
+SELECT UPPER(s.StudentName) -- built-in function
+FROM Students s
+WHERE EndOfUniEnrollment > current_date()
+ORDER BY s.StudentName ASC;
  
  -- How many credits is each student taking? 
 SELECT s.StudentID, s.StudentName, SUM(c.Credits) AS TotalCredits -- aggregate function
