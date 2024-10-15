@@ -144,6 +144,7 @@ Open your browser and enter the following URL:
 http://localhost:3000/events
 ```
 You'll see:
+
 ![GET /events result](README_images/GetListofEvents.png)
 
 
@@ -154,6 +155,7 @@ Open your browser and enter the following URL:
 http://localhost:3000/make-a-request
 ```
 You'll see:
+
 ![GET /make-a-request result](README_images/SubmitRequestOfEvent.png)
 
 
@@ -161,6 +163,7 @@ You'll see:
 You do not need to enter this URL, this will be automatically switched for you upon clicking the 'Submit Request' button when using the previous route.
 
 Upon clicking submit, you'll see:
+
 ![POST /request-sent result](README_images/ConfirmationofRequestedEvent.png)
 
 
@@ -181,9 +184,11 @@ http://localhost:3000/customer-requests/HarryPotter
 ```
 
 As long as it is accurate to the string entered in the database, it will return any requests under the customer name:
+
 ![GET /customer-requests result](README_images/RequestsFromCustomer.png)
 
 If you mistype or input a name that does not exist in the Requests table, you'll see:
+
 ![GET /customer-requests result](README_images/NoRequestsFromCustomer.png)
 
 
@@ -194,7 +199,8 @@ Use the URL:
 http://localhost:3000/requests
 ```
 You'll see:
-![GET /requests result](README_images/GetListofRequests.png)
+
+![GET /requests result](README_images/GetListOfRequests.png)
 
 
 Note this is dependent on any requests made. You'll see in the above example, 5 additional requests were added via the API. As such, they are marked as FALSE in the DealtWith column.
